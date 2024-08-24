@@ -1,0 +1,32 @@
+.services {
+    margin-top: 30px;
+
+    .motion {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        border-radius: 5px;
+        column-gap: 0.7rem;
+
+        span {
+            i {
+                font-size: 2.2rem;
+                background: var(--primary-color);
+                padding: 10px;
+                border-radius: 50px;
+                font-weight: 400 !important;
+                color: white;
+            }
+        }
+
+        h3 {
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+
+
+    }
+}
